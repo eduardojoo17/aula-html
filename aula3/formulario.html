@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario vaga</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text"><br>
+        <label for="endereco">Endereço:</label>
+        <input id="endereco" type="text"><br>
+        <label for="cidade">Cidade:</label>
+        <input id="cidade" type="text"><br>
+        <label for="estado">Estado:</label>
+        <select id="estado">
+            <option >Rio de Janeiro</option>
+            <option >São Paulo</option>
+        </select>
+</fieldset>
+        <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="natureza">Natureza do Cargo:</label>
+        <select id="natureza">
+            <option >Gerência</option>
+            <option >Diretoria</option>
+        </select>
+        <br>
+        <br>
+        <legend>Área de interesse:</legend>
+        <input type="checkbox" id="escolha1" name="escolha1" value="Computacao">
+        <label for="escolha1">Computação</label><br>
+        <input type="checkbox" id="escolha2" name="escolha2" value="Biologia">
+        <label for="escolha2">Biologia</label><br>
+        <input type="checkbox" id="escolha3" name="escolha3" value="MeioAmbiente">
+        <label for="escolha3">Meio Ambiente</label><br>
+        <input type="checkbox" id="escolha4" name="escolha4" value="Engenharia">
+        <label for="escolha2">Engenharia</label><br>
+        <input type="checkbox" id="escolha5" name="escolha5" value="Historia">
+        <label for="escolha3">Historia</label><br> 
+        <br> 
+
+        
+        <label for="bio">Mini Currículo:</label><br>
+
+        <textarea
+          id="bio"rows="4" cols="50">
+        </textarea> <br>
+</fieldset>
+<br>
+  <button type="submit">
+    Enviar
+  </button>
+
+  <button type="reset">
+    Limpar
+  </button>
+</form>
+        
+ 
+    </main>
+    
+</body>
+</html>
