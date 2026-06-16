@@ -1,14 +1,21 @@
 Header {
     background-color:#944B3A ;
     color:#292019 ;
-    font-family: Verdana, sans-serif;
     text-align: center;
+    font-family: "Smokum", serif;
+    font-weight: 400;
+    font-style: normal;
+     
+      
 }
 body {
     background-color:#CCA97D ;
     color: #292019;
     text-align: center;
-    font-family: Georgia, sans-serif;
+    font-family: "Smokum", serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 img {
@@ -16,3 +23,14 @@ img {
     border-radius: 50%;
 }
 
+
+h1 {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+ }
+      
+    button{
+        background-color:#944B3A;
+        color: #292019;
+  }
