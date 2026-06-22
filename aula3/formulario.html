@@ -11,14 +11,14 @@
         <form>
             <fieldset class="dadosPe">
         <legend class="leg">Dados Pessoais</legend>
-        <label for="nome">Nome:</label>
+        <label for="nome">Nome</label>
         <input id="nome" type="text"><br>
-        <label for="endereco">Endereço:</label>
+        <label for="endereco">Endereço</label>
         <input id="endereco" type="text"><br>
-        <label for="cidade">Cidade:</label>
+        <label for="cidade">Cidade</label>
         <input id="cidade" type="text"><br>
-        <label for="estado">Estado:</label>
-        <select id="estado">
+        <label for="estado">Estado</label>
+        <select class="estado" id="estado">
             <option >Rio de Janeiro</option>
             <option >São Paulo</option>
         </select>
@@ -26,13 +26,13 @@
         <fieldset class="dadosPr">
         <legend>Dados Profissionais</legend>
         <label for="natureza">Natureza do Cargo:</label>
-        <select id="natureza">
+        <select class="natu" id="natureza">
             <option >Gerência</option>
             <option >Diretoria</option>
         </select>
         <br>
         <br>
-        <legend>Área de interesse:</legend>
+        <p class="ar">Área de interesse:</p>
         <input type="checkbox" id="escolha1" name="escolha1" value="Computacao">
         <label for="escolha1">Computação</label><br>
         <input type="checkbox" id="escolha2" name="escolha2" value="Biologia">
@@ -46,18 +46,19 @@
         <br> 
 
         
-        <label for="bio">Mini Currículo:</label><br>
+        <label class="bio" for="bio">Mini Currículo:</label><br>
 
         <textarea
-          id="bio"rows="4" cols="50">
+        
+          id="bio"rows="4" cols="50">Fale um pouco sobre você...
         </textarea> <br>
 </fieldset>
 <br>
-  <button type="submit">
+  <button class="enviar" type="submit">
     Enviar
   </button>
 
-  <button type="reset">
+  <button class="limpar" type="reset">
     Limpar
   </button>
 </form>

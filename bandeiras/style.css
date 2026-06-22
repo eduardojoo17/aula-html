@@ -213,3 +213,50 @@ overflow: hidden;
  height: 250px;
  position: absolute;
  }
+
+
+ .bandeira8{
+    display: flex;
+    border: 1px black solid ;
+    width: 500px;
+    height: 300px;
+    border-radius: 7%;
+    overflow: hidden; 
+    flex-direction: column;
+    position: relative;
+}
+
+.pt23{
+   width: 45%;
+   height: 100%;
+   background-color: red;
+   position: absolute;
+   clip-path: polygon(0 0,100% 50%,0 100%);
+}
+ .pt24{
+    background-color:black;
+    flex: 1;
+ 
+ }
+ .pt25{
+    background-color:white;
+    flex: 1;
+ 
+ }
+ .pt26{
+    background-color:green;
+    flex: 1;
+
+ }
+
+ .pt27{
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    aspect-ratio: 1;
+    background: white;
+    clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+ }
+ 

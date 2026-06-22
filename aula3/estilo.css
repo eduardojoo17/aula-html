@@ -1,6 +1,6 @@
 body{
     background-color: #0E132D;
-    color: white;
+    color: #717d9e;
     border: 0.5px ;
     display: flex;
     border-radius: 4%;
@@ -9,26 +9,66 @@ body{
  
 }
 main{
-    border: white;
+    border: #586a9b;
+    border-radius: 2%;
 }
 
 .dadosPe{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 5px;
+    border-radius: 10px;
+    ;
+}
+
+.dadosPr{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    gap: 2px;
+    border-radius: 2%;
 }
 
 legend{
-    border-radius: 2%;
-    color:#48EC6Fff ;
-    border: 1px;
+    border-radius: 50px;
+    background-color:#0E132D ;
+    color:#48EC6F ;
+    border: 1px solid #48EC6F;
+    box-shadow: 0 0 10px rgba(72,326,111,.7);
+    padding: 5px 10px;
 }
 
-button{
-    background-color:#48EC6Fff ;
-    border-radius: 2%;
+.enviar{
+    border-radius: 50px;
+    background: linear-gradient(to left,#22c0c5,#48EC6F );
+    color:#0E132D ;
+    border: 1px solid #48EC6F;
+    box-shadow: 0 0 10px rgba(72,326,111,.7);
+    padding: 5px 10px;
+
 }
 
+.limpar{
+    border-radius: 50px;
+    background-color:#0E132D  ;
+    color:#4ca4be; ;
+    border: 2px solid #4ca4be;
+    box-shadow: 0 0 10px rgba(72,326,111,.7);
+    padding: 5px 10px;
+}
+
+.ar{
+
+}
+
+.bio{
+    color: #6c799b;
+}
+textarea{
+    color: #586a9b;
+    background-color: #0b0f24;
+    border-radius: 10px;
+}
 
 
 input {
@@ -47,4 +87,12 @@ input {
     border-radius: 8px;
     font-size: 16px;
     background-color: #0E132D;
+  }
+  .estado{
+    color:white;
+    padding: 7px;
+  }
+  .natu{
+    color:white;
+    padding: 7px;
   }
