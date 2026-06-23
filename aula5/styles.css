@@ -1,0 +1,38 @@
+.bandeira{
+width:300px ;
+height:200px ;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.fx-vermelha{
+background-color: brown;
+flex: 1;
+}
+
+
+.fx-branca{
+background-color: aliceblue;
+flex: 1;
+}
+
+.quadrado-azul{
+ width:150px ;
+height:calc(100%/13*7) ;
+background-color: darkblue;
+position: absolute;
+display: flex;
+padding: 15px;
+flex-wrap: wrap;
+box-sizing: border-box;
+gap: 7px;
+
+}
+
+
+.estrela{
+width: 5px;
+height: 5px;
+background-color: aliceblue;
+border-radius: 50%;
+}
